@@ -1,0 +1,32 @@
+body{
+    background-color: black !important;
+}
+
+header .score{
+    margin-top: -22px;
+}
+header .score .fa-calculator{
+    margin-top: 4px;
+    font-size: large;
+    letter-spacing: 5px;
+    color: white;
+}
+header .score #counter{
+    font-size: large;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.balls {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+    animation: fall 2.5s linear infinite;
+    position: absolute;
+}
+  
+  @keyframes fall {
+      to {margin-top:90px;}
+  }
